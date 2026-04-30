@@ -1,0 +1,153 @@
+# 🍽️ RESTAURANT MANAGEMENT SYSTEM
+
+## Project Report
+
+---
+
+## 1. Introduction
+
+The Restaurant Management System is a console-based application developed using Python to simulate real-world restaurant operations. The primary objective of this project is to implement and demonstrate various data structures in a practical and meaningful way.
+
+This system helps manage customer details, orders, billing, and menu organization efficiently. It provides a structured approach to handling restaurant workflows using fundamental data structures such as linked lists, stacks, queues, trees, and hash maps.
+
+---
+
+## 2. Objectives
+
+* To design a system that manages restaurant operations efficiently
+* To implement core data structures in real-world applications
+* To improve understanding of data organization and processing
+* To simulate order handling, billing, and customer management
+
+---
+
+## 3. System Overview
+
+The system provides functionalities such as:
+
+* Customer registration and management
+* Order creation and tracking
+* Kitchen order processing
+* Bill generation
+* Menu display and search
+* Statistical analysis
+
+It is a menu-driven program where users can interact through simple input commands.
+
+---
+
+## 4. Data Structures Used
+
+### 4.1 Linked List
+
+Used to store customer order history. Each node represents an order and allows efficient insertion and traversal.
+
+### 4.2 Stack
+
+Used for managing recent bills. It follows the Last-In-First-Out (LIFO) principle.
+
+### 4.3 Queue
+
+Used for processing kitchen orders in First-In-First-Out (FIFO) order.
+
+### 4.4 Priority Queue
+
+Used for handling VIP customers. Higher priority customers are served first.
+
+### 4.5 Tree
+
+Used to organize the restaurant menu into categories such as appetizers, main course, and beverages.
+
+### 4.6 Hash Map
+
+Used to store and retrieve customer details efficiently using phone numbers as keys.
+
+### 4.7 Array
+
+Used to track statistics such as hourly orders and popular items.
+
+---
+
+## 5. System Design
+
+### 5.1 Modules
+
+* Customer Module
+* Order Management Module
+* Billing Module
+* Menu Management Module
+* Statistics Module
+
+### 5.2 Workflow
+
+1. Customer registers or logs in
+2. Customer places an order
+3. Order is added to queue (VIP or regular)
+4. Kitchen processes the order
+5. Order is completed and bill is generated
+6. Data is stored for future analysis
+
+---
+
+## 6. Features
+
+* Menu displayed using tree structure
+* Efficient customer lookup using hash map
+* Order history tracking using linked list
+* VIP order prioritization
+* Automatic bill generation with tax
+* Real-time statistics tracking
+* Search functionality for menu items
+
+---
+
+## 7. Advantages
+
+* Efficient data handling
+* Fast lookup and retrieval
+* Real-world application of data structures
+* Scalable design
+* Easy to use interface
+
+---
+
+## 8. Limitations
+
+* Console-based interface (no GUI)
+* No database integration
+* Limited to local execution
+* No authentication system
+
+---
+
+## 9. Future Enhancements
+
+* Develop a graphical user interface (GUI)
+* Integrate database (MySQL / MongoDB)
+* Add online ordering system
+* Implement authentication and security
+* Deploy as a web application
+
+---
+
+## 10. Conclusion
+
+The Restaurant Management System successfully demonstrates the application of multiple data structures in solving real-world problems. It provides an efficient and organized way to manage restaurant operations while reinforcing core programming concepts.
+
+This project serves as a strong foundation for building more advanced and scalable systems in the future.
+
+---
+
+## 11. Author
+
+**Vekshitha Kutagulla**
+
+---
+
+## 12. References
+
+* Python Documentation
+* Data Structures and Algorithms textbooks
+* Online programming resources
+
+---
